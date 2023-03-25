@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import { Workflow } from './workflow';
+import { Workflow } from '../src/components/workflow';
 function App() {
   return (
     <div className="App">

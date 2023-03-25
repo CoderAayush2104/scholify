@@ -1,5 +1,5 @@
 import React from 'react'
-import "./workflow.css"
+import "../components/workflow.css"
 import { useState } from 'react'
 // 
 export const Workflow = () => {
