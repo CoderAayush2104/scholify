@@ -1,7 +1,12 @@
 .App {
+  display: grid;
+  grid-template-columns: 1fr;
   text-align: center;
 }
-
+.container{
+  height: 100vh;
+  width: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
