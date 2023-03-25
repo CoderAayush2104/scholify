@@ -3,8 +3,6 @@ import { Route, Routes } from "react-router-dom";
 import Page from "./page"; 
 import "./App.css";
 import Home from "./home";
-
-import { Workflow } from "../src/components/workflow";
 function App() {
   return (
     <div className="App">

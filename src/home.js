@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Workflow } from './components/workflow';
+import "./App.css";
 import {
     BarChart1,
     BarChart2,
@@ -11,7 +13,14 @@ import {
 class home extends Component {
   render() {
     return (
+        <div className='containing'>
+        <div >
       <div>
+        
+            <Workflow/>
+        
+    </div>
+        <div>
       <div className="container">
       <BarChart1 />
     </div>
@@ -31,8 +40,12 @@ class home extends Component {
       <BarChart6 />
     </div>
     </div>
+    </div>
+    </div>
     )
   }
 }
 
-export default home
+export default home;
+
+
