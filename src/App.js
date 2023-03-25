@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import BarChart from "./components/BarChart";
 import './App.css';
 
 import { Workflow } from '../src/components/workflow';
@@ -19,7 +20,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Workflow/>
+      <Workflow />
+      <BarChart />
     </div>
   );
 }
