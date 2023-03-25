@@ -165,7 +165,7 @@ const BarChart4 = () => {
     },
   };
 
-  const labels = regions;
+  const labels = weeks;
 
   const data4 = {
     labels,
@@ -184,4 +184,90 @@ const BarChart4 = () => {
   );
 };
 
-export { BarChart1, BarChart2, BarChart3, BarChart4 };
+const BarChart5 = () => {
+  const options5 = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: "top" as const,
+      },
+      title: {
+        display: true,
+        text: "historical analysis across Campaigns > Views vs Time",
+      },
+    },
+  };
+
+  const labels = weeks;
+
+  const data5 = {
+    labels,
+    datasets: [
+      {
+        label: "Campaign1",
+        data: [1, 2, 3, 4, 5],
+        backgroundColor: "rgba(255, 99, 132, 0.5)",
+      },
+      {
+        label: "Campaign2",
+        data: [6, 7, 8, 9, 10],
+        backgroundColor: "rgba(106, 0, 180, 1)",
+      },
+    ],
+  };
+  return (
+    <div>
+      <Bar options={options5} data={data5} />
+    </div>
+  );
+};
+
+const reasons = ["failed verification","missed deadline","insufficient documents"]
+const BarChart6 = () => {
+  const options6 = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: "top" as const,
+      },
+      title: {
+        display: true,
+        text: "reasons for drop off >views",
+      },
+    },
+  };
+
+  const labels = weeks;
+
+  const data6 = {
+    labels,
+    datasets: [
+      {
+        label: "Failed verification",
+        data: [1, 2, 3, 4, 5],
+        backgroundColor: "rgba(255, 99, 132, 0.5)",
+      },
+      {
+        label: "missed deadline",
+        data: [6, 7, 8, 9, 10],
+        backgroundColor: "rgba(106, 0, 180, 1)",
+      },
+      {
+        label: "insufficient details",
+        data: [11,12,13,14,15],
+        backgroundColor: "rgb(0, 179, 60)",
+      },
+    ],
+  };
+  return (
+    <div>
+      <Bar options={options6} data={data6} />
+    </div>
+  );
+};
+
+
+
+
+
+export { BarChart1, BarChart2, BarChart3, BarChart4, BarChart5, BarChart6 };

@@ -4,6 +4,8 @@ import {
   BarChart2,
   BarChart3,
   BarChart4,
+  BarChart5,
+  BarChart6
 } from "./components/BarChart.tsx";
 import "./App.css";
 
@@ -39,6 +41,12 @@ function App() {
       </div>
       <div className="container">
         <BarChart4 />
+      </div>
+      <div className="container">
+        <BarChart5 />
+      </div>
+      <div className="container">
+        <BarChart6 />
       </div>
     </div>
   );
