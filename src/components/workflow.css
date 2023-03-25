@@ -1,7 +1,7 @@
 .box-main {
-    z-index: 5;
+    z-index: 15;
     background-color: green;
-    color: pink;
+   
     width: 50px;
     height: 50px;
     position: absolute;
@@ -11,9 +11,10 @@
     transform: scale(1);
     transition: transform 500ms ease-in-out;
 }
+
 .box {
     background-color: blue;
-    color: red;
+    z-index:10;
     width: 50px;
     height: 50px;
     position: absolute;
@@ -24,7 +25,62 @@
     transition: transform 500ms ease-in-out;
 
 }
+.box-lvl1{
+    z-index:5;
+    background-color: yellow;
+   
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 36%;
+    left: 10%;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: transform 500ms ease-in-out;
 
+}
+.box-lvl2{
+    z-index: 4;
+    background-color: red;
+
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 36%;
+    left: 10%;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: transform 500ms ease-in-out;
+
+}
+.box-lvl3{
+    z-index: 3;
+    background-color: purple;
+
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 36%;
+    left: 10%;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: transform 500ms ease-in-out;
+
+}
+.box-lvl4{
+    z-index: 2;
+    background-color: orange;
+
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 36%;
+    left: 10%;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: transform 500ms ease-in-out;
+
+}
 
 
 .box-main:hover {
@@ -52,6 +108,70 @@
 .move3 {
     transform: translate(250px, 80px);
 }
+/* child - 5*/
+.move4 {
+    transform: translate(250px, 80px);
+}
+.move5 {
+    transform: translate(500px, 160px);
+}
+/*child - 6*/
+.move6{
+    transform: translate(250px, -80px);
+}
+.move7{
+    transform: translate(500px);
+}
+/*child - 7 */
+.move8{
+    transform: translate(250px);
+}
+.move9{
+    transform: translate(500px);
+}
+.move10{
+    transform: translate(750px);
+}
+/*child - 8 */
+.move11{
+    transform: translate(250px);
+}
+.move12{
+    transform: translate(500px);
+}
+.move13{
+    transform: translate(750px);
+}
+.move14{
+    transform: translate(900px);
+}
+/*child - 9 */
+.move15{
+    transform: translate(250px);
+}
+.move16{
+    transform: translate(500px);
+}
+.move17{
+    transform: translate(750px);
+}
+.move18{
+    transform: translate(900px);
+}
+.move19{
+    transform: translate(1000px,-80px);
+}
+.move20{
+    transform: translate(1000px);
+}
+.move21{
+    transform: translate(1000px,80px);
+}
+
+
+
+
+
 
 .path {
     stroke-dasharray: 1000;
@@ -72,6 +192,6 @@
 
 }
 
-.hide {
+ .hide {
     display: none;
 }
