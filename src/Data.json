@@ -1,0 +1,121 @@
+{
+    "campaign_name": "c1",
+    "campaign_details": {
+        "comp": "ABC Corp",
+        "start": "2022-01-01",
+        "end": "2022-06-30",
+        "amt": 1000000
+    },
+    "data": [
+        {
+            "id": 1,
+            "Name": "John Doe",
+            "Email": "johndoe@example.com",
+            "Application date": "2022-03-15",
+            "12 CGPA": 90,
+            "Match": "80%",
+            "Location": "Uttar Pradesh",
+            "Reason for drop off": "N/A",
+            "state": [1, 5, 10]   
+        },
+        {
+            "id": 2,
+            "Name": "Jane Smith",
+            "Email": "janesmith@example.com",
+            "Application date": "2022-03-16",
+            "12 CGPA": 85,
+            "Match": "70%",
+            "Location": "Karnataka",
+            "Reason for drop off": "Not interested in the company",
+            "state": [2, 7, 13]
+        },
+        {
+            "id": 3,
+            "Name": "Bob Johnson",
+            "Email": "bobjohnson@example.com",
+            "Application date": "2022-03-17",
+            "12 CGPA": 95,
+            "Match": "90%",
+            "Location": "Maharashtra",
+            "Reason for drop off": "Accepted another job offer",
+            "state": [3, 8, 14]
+        },
+        {
+            "id": 4,
+            "Name": "Alice Lee",
+            "Email": "alicelee@example.com",
+            "Application date": "2022-03-18",
+            "12 CGPA": 80,
+            "Match": "65%",
+            "Location": "Tamil Nadu",
+            "Reason for drop off": "Not interested in the location",
+            "state": [4, 9, 15]
+        },
+        {
+            "id": 5,
+            "Name": "Robert Brown",
+            "Email": "robertbrown@example.com",
+            "Application date": "2022-03-19",
+            "12 CGPA": 88,
+            "Match": "75%",
+            "Location": "Andhra Pradesh",
+            "Reason for drop off": "Company reputation",
+            "state": [1, 6, 11]
+        },
+        {
+            "id": 6,
+            "Name": "Linda Davis",
+            "Email": "lindadavis@example.com",
+            "Application date": "2022-03-20",
+            "12 CGPA": 93,
+            "Match": "85%",
+            "Location": "Gujarat",
+            "Reason for drop off": "Not enough salary",
+            "state": [2, 7, 12]
+        },
+        {
+            "id": 7,
+            "Name": "Michael Wilson",
+            "Email": "michaelwilson@example.com",
+            "Application date": "2022-03-21",
+            "12 CGPA": 87,
+            "Match": "73%",
+            "Location": "Punjab",
+            "Reason for drop off": "Better job prospects",
+            "state": [3, 8, 13]
+        },
+        {
+            "id": 8,
+            "Name": "Elizabeth Garcia",
+            "Email": "elizabethgarcia@example.com",
+            "12 CGPA": 82,
+            "Application date": "2022-03-22",
+            "Location": "West Bengal",
+            "Match": "68%",
+            "state": [4, 9, 14],
+            "Reason for drop off": "Lack of growth opportunities",
+        },
+        {
+            "id": 9,
+            "Name": "David Hernandez",
+            "Email": "davidhernandez@example.com",
+            "Application date": "2022-03-23",
+            "12 CGPA": 91,
+            "Match": "82%",
+            "Location": "Madhya Pradesh",
+            "Reason for drop off": "No response from the company",
+            "state": [1, 5, 15]
+        },
+        {
+            "id": 10,
+            "Name": "Jennifer Martinez",
+            "Email": "jennifermartinez@example.com",
+            "Application date": "2022-03-24",
+            "12 CGPA": 96,
+            "Match": "92%",
+            "Location": "Rajasthan",
+            "Reason for drop off": "Salary not negotiable",
+            "state": [2, 6, 11]
+        },
+    ]
+}
