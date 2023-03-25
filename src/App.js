@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import BarChart from "./components/BarChart";
+import {BarChart1, BarChart2} from "./components/BarChart.tsx";
 import './App.css';
 
 import { Workflow } from '../src/components/workflow';
@@ -24,7 +24,10 @@ function App() {
       <Workflow />
       </div>
       <div className='container'>
-      <BarChart />
+      <BarChart1 />
+      </div>
+      <div className='container'>
+      <BarChart2 />
       </div>
     </div>
   );
