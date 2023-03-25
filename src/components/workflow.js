@@ -40,14 +40,14 @@ export const Workflow = () => {
   }
   return (
     <>
-    <div>Hello</div>
+    
     <div className='box-main' onClick={toggleAnimation}>100</div>
     <div className='box' id="box1"></div>
     <div className='box'id="box2"></div>
     <div className='box'id="box3"></div>
     {/* <button id='button' onClick={toggleArrow}>Click</button> */}
     <div className = {arrow?"arrow" : "hide"}>
-  <svg width="315px" height="107px" viewBox="340 -260 315 107" version="1.1" style={{overflow:'visible'}}>
+  <svg width="315px" height="107px" viewBox="340 -250 315 107" version="1.1" style={{overflow:'visible'}}>
     
       <path id="Path-1" class="path" fill="none" stroke="#db5862" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" d="m 0 0 c 100 0 100 -75 200 -75"/>
 
@@ -55,7 +55,7 @@ export const Workflow = () => {
   </svg>
 </div>
 <div className = {arrow?"arrow" : "hide"}>
-  <svg width="315px" height="107px" viewBox="340 -160 315 107" version="1.1" style={{overflow:'visible'}}>
+  <svg width="315px" height="107px" viewBox="340 -150 315 107" version="1.1" style={{overflow:'visible'}}>
     
       <path id="Path-1" class="path" fill="none" stroke="#db5862" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" d="m 0 0 c 100 0 100 0 200 0"/>
 
@@ -63,7 +63,7 @@ export const Workflow = () => {
   </svg>
 </div>
 <div className = {arrow?"arrow" : "hide"}>
-  <svg width="315px" height="107px" viewBox="340 -60 315 107" version="1.1" style={{overflow:'visible'}}>
+  <svg width="315px" height="107px" viewBox="340 -50 315 107" version="1.1" style={{overflow:'visible'}}>
     
       <path id="Path-1" class="path" fill="none" stroke="#db5862" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" d="m 0 0 c 100 0 100 75 200 75"/>
 
