@@ -20,8 +20,12 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <div className='container'>
       <Workflow />
+      </div>
+      <div className='container'>
       <BarChart />
+      </div>
     </div>
   );
 }
