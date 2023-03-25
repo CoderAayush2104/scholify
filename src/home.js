@@ -13,14 +13,12 @@ import {
 class home extends Component {
   render() {
     return (
-        <div className='containing'>
-        <div >
-      <div>
+       <>
         
+      <div className='container'>
             <Workflow/>
-        
-    </div>
-        <div>
+    
+        </div>
       <div className="container">
       <BarChart1 />
     </div>
@@ -39,9 +37,8 @@ class home extends Component {
     <div className="container">
       <BarChart6 />
     </div>
-    </div>
-    </div>
-    </div>
+    
+    </>
     )
   }
 }
