@@ -41,7 +41,7 @@ export const Workflow = () => {
   return (
     <>
     
-    <div className='box-main' onClick={toggleAnimation}>100</div>
+    <div className='box-main' onClick={toggleAnimation}></div>
     <div className='box' id="box1"></div>
     <div className='box'id="box2"></div>
     <div className='box'id="box3"></div>
