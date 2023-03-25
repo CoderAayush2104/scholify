@@ -1,8 +1,13 @@
-import logo from './logo.svg';
-import {BarChart1, BarChart2} from "./components/BarChart.tsx";
-import './App.css';
+import logo from "./logo.svg";
+import {
+  BarChart1,
+  BarChart2,
+  BarChart3,
+  BarChart4,
+} from "./components/BarChart.tsx";
+import "./App.css";
 
-import { Workflow } from '../src/components/workflow';
+import { Workflow } from "../src/components/workflow";
 function App() {
   return (
     <div className="App">
@@ -20,14 +25,20 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <div className='container'>
-      <Workflow />
+      <div className="container">
+        <Workflow />
       </div>
-      <div className='container'>
-      <BarChart1 />
+      <div className="container">
+        <BarChart1 />
       </div>
-      <div className='container'>
-      <BarChart2 />
+      <div className="container">
+        <BarChart2 />
+      </div>
+      <div className="container">
+        <BarChart3 />
+      </div>
+      <div className="container">
+        <BarChart4 />
       </div>
     </div>
   );
