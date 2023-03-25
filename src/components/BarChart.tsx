@@ -9,6 +9,7 @@ import {
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
+import Data from "../Data.json"
 
 ChartJS.register(
   CategoryScale,
@@ -224,6 +225,19 @@ const BarChart5 = () => {
 
 const reasons = ["failed verification","missed deadline","insufficient documents"]
 const BarChart6 = () => {
+  function get_user_list(count) {
+      const randomIntArrayInRange = (min, max, n = count) =>
+        Array.from(
+          { length: n },
+          () => Math.floor(Math.random() * (max - min + 1)) + min
+        );
+        const rand_index = randomIntArrayInRange(0, 100, count);
+    return (
+      rand_index.forEach((index) => {
+        console.log(Data.data[index-1]);
+      })
+    );
+  }
   const options6 = {
     responsive: true,
     plugins: {
@@ -262,6 +276,8 @@ const BarChart6 = () => {
   return (
     <div>
       <Bar options={options6} data={data6} />
+      <button onClick={() => get_user_list(20)}>get_user_list
+      </button>
     </div>
   );
 };
