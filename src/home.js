@@ -11,10 +11,29 @@ import {
   } from "./components/BarChart.tsx";
 
 class home extends Component {
-  render() {
+    
+  render()
+  
+  {
+    // window.onscroll = function() {myFunction()};
+
+// Get the header
+
+// Get the offset position of the navbar
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+// function myFunction() {
+//   if (window.pageYOffset > sticky) {
+//     header.classList.add("sticky");
+//   } else {
+//     header.classList.remove("sticky");
+//   }
+// }
     return (
        <>
-        
+        <div class="header" id="myHeader">
+  <h2>Scholify</h2>
+</div>
       <div className='container'>
             <Workflow/>
     
