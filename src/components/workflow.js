@@ -453,10 +453,15 @@ export const Workflow = () => {
               <table class="table table-striped">
                 <thead>
                   <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
+                    <th>id</th>
+                    <th>name</th>
                     <th>Email</th>
-                  </tr>
+                    <th>application_date</th>
+                    <th>12 CGPA</th>
+                    <th>Match</th>
+                    <th>Location/</th>
+                    <th>Reason_for_dropoff</th>
+                    </tr>
                 </thead>
                 <tbody>
                   <tr>
