@@ -2,7 +2,8 @@ import React from "react";
 import "../components/workflow.css";
 import { useState } from "react";
 import Data from "../Data.json";
-//
+// MyComponent.jsx
+// @ts-check
 export const Workflow = () => {
   const [toggleVisibility1, setToggleVisibility1] = useState(false);
   const [arrow1, setArrow1] = useState(false);
@@ -435,14 +436,14 @@ export const Workflow = () => {
       console.log(user);
       return (
         <tr>
-          <td>{user["id"]}</td>
-          <td>{user["name"]}</td>
-          <td>{user["email"]}</td>
-          <td>{user["application_date"]}</td>
-          <td>{user["12 CGPA"]}</td>
-          <td>{user["Match"]}</td>
-          <td>{user["Location"]}</td>
-          <td>{user["Reason_for_drop"]}</td>
+          <td>{user?.["id"]}</td>
+          <td>{user?.["name"]}</td>
+          <td>{user?.["email"]}</td>
+          <td>{user?.["application_date"]}</td>
+          <td>{user?.["12 CGPA"]}</td>
+          <td>{user?.["Match"]}</td>
+          <td>{user?.["Location"]}</td>
+          <td>{user?.["Reason_for_drop"]}</td>
         </tr>
       );
     });
