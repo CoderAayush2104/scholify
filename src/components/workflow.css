@@ -81,20 +81,7 @@
     transition: transform 500ms ease-in-out;
 
 }
-.box-lvl4{
-    z-index: 10;
-    background-color: orange;
 
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 36%;
-    left: 5%;
-    border-radius: 50%;
-    transform: scale(1);
-    transition: transform 500ms ease-in-out;
-
-}
 .box-lvl5{
     z-index: 9;
     background-color: pink;
@@ -303,14 +290,13 @@
 /* CSS */
 .button-1 {
   background-color: transparent;
-  height: 5vh;
+  height: 2vh;
   border-style: none;
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
 
-  list-style: none;
   margin-top: 1vh;
   outline: none;
   padding: 10px 16px;
