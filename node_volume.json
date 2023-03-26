@@ -1,0 +1,19 @@
+{
+  "volumes": {
+    "node1": 100,
+    "node2": 30,
+    "node3": 50,
+    "node4": 20,
+    "node5": 20,
+    "node6": 35,
+    "node7": 25,
+    "node8": 30,
+    "node9": 25,
+    "node10": 10,
+    "node11": 10,
+    "node12": 20,
+    "node13": 8,
+    "node14": 5,
+    "node15": 25
+  }
+}
