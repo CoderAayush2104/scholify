@@ -452,9 +452,11 @@ export const Workflow = () => {
     <>
       <>
         <div className="box-main" onClick={toggleAnimation1}>
-          <button id="node1" className="button-1" data-toggle="modal" data-target="#myModal">
-            100
-          </button>
+          <button
+            class="button-1"
+            data-toggle="modal"
+            data-target="#myModal"
+          >100</button>
         </div>
         <div className="modal" id="myModal">
           <div className="modal-dialog">
