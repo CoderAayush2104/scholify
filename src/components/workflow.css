@@ -323,3 +323,18 @@
  
 }
 
+.modal-body {
+    width:80vw;
+}
+
+.modal-content {
+    /* position: absolute; */
+    left: 0vw;
+    width: 80vw;
+}
+
+.modal-dialog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
