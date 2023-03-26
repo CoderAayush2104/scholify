@@ -1,6 +1,7 @@
 import React from "react";
 import "../components/workflow.css";
 import { useState } from "react";
+import Data from "../Data.json";
 //
 export const Workflow = () => {
   const [toggleVisibility1, setToggleVisibility1] = useState(false);
@@ -410,148 +411,113 @@ export const Workflow = () => {
       document.getElementById("box14").classList.remove("move39");
     }
   }
+  function get_user_list(count) {
+    const randomIntArrayInRange = (min, max, n = count) =>
+      Array.from(
+        { length: n },
+        () => Math.floor(Math.random() * (max - min + 1)) + min
+      );
+    const rand_index = randomIntArrayInRange(0, 100, count);
+    const user_data = [];
+    rand_index.forEach((index) => {
+      console.log(Data.data[index - 1]);
+      user_data.push(Data.data[index - 1]);
+    });
+    console.log(user_data)
+    return user_data;
+  }
+  function tdData() {
+    // const btn = 
+    // console.log(btn)
+    const user_data = get_user_list(20);
+    console.log(user_data)
+    return user_data.map((user) => {
+      console.log(user);
+      return (
+        <tr>
+          <td>{user["id"]}</td>
+          <td>{user["name"]}</td>
+          <td>{user["email"]}</td>
+          <td>{user["application_date"]}</td>
+          <td>{user["12 CGPA"]}</td>
+          <td>{user["Match"]}</td>
+          <td>{user["Location"]}</td>
+          <td>{user["Reason_for_drop"]}</td>
+        </tr>
+      );
+    });
+  }
 
   return (
     <>
       <>
-      
-        <div className="box-main" id="mainbox"onClick={toggleAnimation1}>
-          <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <div className="box-main" onClick={toggleAnimation1}>
+          <button id="node1" className="button-1" data-toggle="modal" data-target="#myModal">
             100
           </button>
-          Views
         </div>
-        <div class="modal" id="myModal">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title">Modal Heading</h4>
-                <button type="button" class="close" data-dismiss="modal">
+        <div className="modal" id="myModal">
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h4 className="modal-title">User Data</h4>
+                <button type="button" className="close" data-dismiss="modal">
                   &times;
                 </button>
               </div>
 
-              <div class="modal-body">
-                <table class="table table-striped">
-                  <thead>
-                    <tr>
-                      <th>id</th>
-                      <th>name</th>
-                      <th>Email</th>
-                      <th>application_date</th>
-                      <th>12 CGPA</th>
-                      <th>Match</th>
-                      <th>Location/</th>
-                      <th>Reason_for_dropoff</th>
+
+            <div class="modal-body">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>id</th>
+                    <th>name</th>
+                    <th>Email</th>
+                    <th>application_date</th>
+                    <th>12 CGPA</th>
+                    <th>Match</th>
+                    <th>Location/</th>
+                    <th>Reason_for_dropoff</th>
                     </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>John</td>
-                      <td>Doe</td>
-                      <td>john@example.com</td>
-                      <td>Mary</td>
-                      <td>Moe</td>
-                      <td>mary@example.com</td>
-                      <td>Mary</td>
-                      <td>Moe</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-danger"
-                  data-dismiss="modal"
-                >
-                  Close
-                </button>
-              </div>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                  </tr>
+                
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
-      </>
-      <div className="box" id="box1" onClick={toggleAnimation3}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
-          30
-        </button>
-        Bookmarked
       </div>
-      <div className="box" id="box2" onClick={toggleAnimation3}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
-          50
-        </button>
-      </div>
-      <div className="box" id="box3" onClick={toggleAnimation2}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
-          20
-        </button>
-      </div>
-      <div className="box-lvl1" id="box4">
-        <button
-          class="button-1 exception"
-          data-toggle="modal"
-          data-target="#myModal"
-        >
-          20
-        </button>
-      </div>
-      <div className="box-lvl1 lvlup" id="box5" onClick={toggleAnimation4}>
-        <button
-          class="button-1 exception"
-          data-toggle="modal"
-          data-target="#myModal"
-        >
-          35
-        </button>
-      </div>
-      <div className="box-lvl2" id="box6" onClick={toggleAnimation5}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
-          45
-        </button>
-      </div>
-      <div className="box-lvl3" id="box7" onClick={toggleAnimation6}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
-          20
-        </button>
-      </div>
-      <div className="box-lvl3" id="box8" onClick={toggleAnimation7}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
-          25
-        </button>
-      </div>
-      <div className="box-lvl4" id="box9" onClick={toggleAnimation7}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
-          5
-        </button>
-      </div>
-      <div className="box-lvl4" id="box10" onClick={toggleAnimation8}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
-          10
-        </button>
-      </div>
-      <div className="box-lvl4" id="box11" onClick={toggleAnimation9}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
-          10
-        </button>
-      </div>
-      <div className="box-lvl5" id="box12">
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
-          5
-        </button>
-      </div>
-      <div className="box-lvl5" id="box13" onClick={toggleAnimation9}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
-          5
-        </button>
-      </div>
-      <div className="box-lvl6" id="box14">
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
-          15
-        </button>
-      </div>
-      <div className={arrow1 ? "arrow" : "hide"}>
+    </>
+    <div className="box" id="box1" onClick={toggleAnimation3}><button class="button-1"data-toggle="modal" data-target="#myModal">30</button></div>
+    <div className="box" id="box2" onClick={toggleAnimation3}><button class="button-1"data-toggle="modal" data-target="#myModal">50</button></div>
+    <div className="box" id="box3" onClick={toggleAnimation2}><button class="button-1"data-toggle="modal" data-target="#myModal">20</button></div>
+    <div className="box-lvl1" id="box4"><button class="button-1"data-toggle="modal" data-target="#myModal">20</button></div>
+    <div className="box-lvl1 lvlup" id="box5" onClick={toggleAnimation4}><button class="button-1" data-toggle="modal" data-target="#myModal">35</button></div>
+    <div className="box-lvl2" id="box6" onClick={toggleAnimation5}><button class="button-1"  data-toggle="modal" data-target="#myModal">45</button></div>
+    <div className="box-lvl3" id="box7" onClick={toggleAnimation6}><button class="button-1" data-toggle="modal" data-target="#myModal">20</button></div>
+    <div className="box-lvl3" id="box8" onClick={toggleAnimation7}><button class="button-1" data-toggle="modal" data-target="#myModal">25</button></div>
+    <div className="box-lvl4" id="box9" onClick={toggleAnimation7}><button class="button-1" data-toggle="modal" data-target="#myModal">5</button></div>
+    <div className="box-lvl4" id="box10" onClick={toggleAnimation8}><button class="button-1"  data-toggle="modal" data-target="#myModal">10</button></div>
+    <div className="box-lvl4" id="box11" onClick={toggleAnimation9}><button class="button-1" data-toggle="modal" data-target="#myModal">10</button></div>
+    <div className="box-lvl5" id="box12"><button class="button-1" data-toggle="modal" data-target="#myModal">5</button></div>
+    <div className="box-lvl5" id="box13" onClick={toggleAnimation9} ><button class="button-1" data-toggle="modal" data-target="#myModal">5</button></div>
+    <div className="box-lvl6" id="box14"><button class="button-1" data-toggle="modal" data-target="#myModal">15</button></div>
+    <div className={arrow1 ? "arrow" : "hide"}>
         <svg
           width="315px"
           height="107px"
