@@ -481,17 +481,7 @@ export const Workflow = () => {
                     </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>john@example.com</td>
-                    <td>Mary</td>
-                    <td>Moe</td>
-                    <td>mary@example.com</td>
-                    <td>Mary</td>
-                    <td>Moe</td>
-                  </tr>
-                
+                  {tdData()}                
                 </tbody>
               </table>
             </div>
