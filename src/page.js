@@ -1,12 +1,18 @@
 
 import React, { Component } from 'react'
  
-class page extends Component {
-  render() {
-    return (
-      <div>page</div>
-    )
-  }
-}
+const page = () => {
 
+  const increase_view = () => {
+    
+  }
+
+  return (
+    <>
+      <div>
+        <button onClick={increase_view}>increase_view</button>
+      </div>
+    </>
+  );
+}
 export default page;
