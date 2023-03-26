@@ -302,7 +302,9 @@
   border-width: 0;
  
 }
-
+.exception {
+    color: black;
+}
 .modal-body {
     width:80vw;
 }
