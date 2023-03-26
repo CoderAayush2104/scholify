@@ -2,6 +2,7 @@ import React from "react";
 import "../components/workflow.css";
 import { useState } from "react";
 import Data from "../Data.json";
+import node_volumes from "../node_volume.json";
 // MyComponent.jsx
 // @ts-check
 export const Workflow = () => {
@@ -421,19 +422,24 @@ export const Workflow = () => {
     const rand_index = randomIntArrayInRange(0, 100, count);
     const user_data = [];
     rand_index.forEach((index) => {
-      console.log(Data.data[index - 1]);
+      // console.log(Data.data[index - 1]);
       user_data.push(Data.data[index - 1]);
     });
-    console.log(user_data);
+    // console.log(user_data);
     return user_data;
   }
-  function tdData() {
-    // const btn =
-    // console.log(btn)
-    const user_data = get_user_list(20);
-    console.log(user_data);
+  let btn_id;
+  const handleClick = (event) => {
+    console.log(event.currentTarget.id);
+    btn_id = event?.currentTarget?.id;
+    const val = node_volumes["volumes"][btn_id];
+    console.log(val)
+    // console.log(val)
+    const user_data = get_user_list(val);
+    console.log(user_data)
+    // console.log(user_data);
     return user_data.map((user) => {
-      console.log(user);
+      // console.log(user);
       return (
         <tr>
           <td>{user?.["id"]}</td>
@@ -447,7 +453,29 @@ export const Workflow = () => {
         </tr>
       );
     });
-  }
+  };
+  // function tdData() {
+  //   console.log("btn_id = ",btn_id)
+  //   const val = node_volumes["volumes"][{btn_id}];
+  //   // console.log(val)
+  //   const user_data = get_user_list(val);
+  //   // console.log(user_data);
+  //   return user_data.map((user) => {
+  //     // console.log(user);
+  //     return (
+  //       <tr>
+  //         <td>{user?.["id"]}</td>
+  //         <td>{user?.["name"]}</td>
+  //         <td>{user?.["email"]}</td>
+  //         <td>{user?.["application_date"]}</td>
+  //         <td>{user?.["12 CGPA"]}</td>
+  //         <td>{user?.["Match"]}</td>
+  //         <td>{user?.["Location"]}</td>
+  //         <td>{user?.["Reason_for_drop"]}</td>
+  //       </tr>
+  //     );
+  //   });
+  // }
 
   return (
     <>
@@ -456,6 +484,7 @@ export const Workflow = () => {
           <button
             id="node1"
             className="button-1"
+            onClick={handleClick}
             data-toggle="modal"
             data-target="#myModal"
           >
@@ -472,8 +501,8 @@ export const Workflow = () => {
                 </button>
               </div>
 
-              <div class="modal-body">
-                <table class="table table-striped">
+              <div className="modal-body">
+                <table className="table table-striped">
                   <thead>
                     <tr>
                       <th>id</th>
@@ -486,13 +515,13 @@ export const Workflow = () => {
                       <th>Reason_for_dropoff</th>
                     </tr>
                   </thead>
-                  <tbody>{tdData()}</tbody>
+                  <tbody>{handleClick}</tbody>
                 </table>
               </div>
-              <div class="modal-footer">
+              <div className="modal-footer">
                 <button
                   type="button"
-                  class="btn btn-danger"
+                  className="btn btn-danger"
                   data-dismiss="modal"
                 >
                   Close
@@ -503,72 +532,156 @@ export const Workflow = () => {
         </div>
       </>
       <div className="box" id="box1" onClick={toggleAnimation3}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node2"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           30
         </button>
       </div>
       <div className="box" id="box2" onClick={toggleAnimation3}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node3"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           50
         </button>
       </div>
       <div className="box" id="box3" onClick={toggleAnimation2}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node4"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           20
         </button>
       </div>
       <div className="box-lvl1" id="box4">
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node5"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           20
         </button>
       </div>
       <div className="box-lvl1 lvlup" id="box5" onClick={toggleAnimation4}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node6"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           35
         </button>
       </div>
       <div className="box-lvl2" id="box6" onClick={toggleAnimation5}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node7"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           45
         </button>
       </div>
       <div className="box-lvl3" id="box7" onClick={toggleAnimation6}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node8"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           20
         </button>
       </div>
       <div className="box-lvl3" id="box8" onClick={toggleAnimation7}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node9"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           25
         </button>
       </div>
       <div className="box-lvl4" id="box9" onClick={toggleAnimation7}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node10"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           5
         </button>
       </div>
       <div className="box-lvl4" id="box10" onClick={toggleAnimation8}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node12"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           10
         </button>
       </div>
       <div className="box-lvl4" id="box11" onClick={toggleAnimation9}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node12"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           10
         </button>
       </div>
       <div className="box-lvl5" id="box12">
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node13"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           5
         </button>
       </div>
       <div className="box-lvl5" id="box13" onClick={toggleAnimation9}>
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node14"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           5
         </button>
       </div>
       <div className="box-lvl6" id="box14">
-        <button class="button-1" data-toggle="modal" data-target="#myModal">
+        <button
+          id="node15"
+          className="button-1"
+          onClick={handleClick}
+          data-toggle="modal"
+          data-target="#myModal"
+        >
           15
         </button>
       </div>
