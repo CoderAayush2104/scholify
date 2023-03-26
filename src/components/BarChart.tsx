@@ -37,6 +37,7 @@ const months = [
 
 const weeks = ["week1", "week2", "week3", "week4", "week5"];
 
+
 const BarChart1 = () => {
   const options1 = {
     responsive: true,
@@ -59,7 +60,7 @@ const BarChart1 = () => {
       {
         label: "Views",
         data: [1, 2, 3, 4, 5],
-        backgroundColor: "rgba(255, 99, 132, 0.5)",
+        backgroundColor: "rgb(0, 102, 255)",
       },
     ],
   };
@@ -69,6 +70,7 @@ const BarChart1 = () => {
     </div>
   );
 };
+
 
 const BarChart2 = () => {
   const options2 = {
@@ -110,6 +112,7 @@ const BarChart2 = () => {
 
 const percentage1 = [20, 40, 60, 80, 100];
 const percentage2 = [40, 80, 100, 20, 60];
+
 
 const BarChart3 = () => {
   const options3 = {
@@ -161,12 +164,12 @@ const BarChart4 = () => {
       },
       title: {
         display: true,
-        text: "Campaign > Views vs Time",
+        text: "Campaign > Views vs Location",
       },
     },
   };
 
-  const labels = weeks;
+  const labels = regions;
 
   const data4 = {
     labels,
@@ -174,7 +177,7 @@ const BarChart4 = () => {
       {
         label: "Views",
         data: [30, 40, 20, 50, 70, 10, 80, 60, 10],
-        backgroundColor: "rgba(255, 99, 132, 0.5)",
+        backgroundColor: "rgb(0, 102, 0)",
       },
     ],
   };
