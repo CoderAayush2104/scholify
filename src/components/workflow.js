@@ -431,31 +431,74 @@ export const Workflow = () => {
     }
   
   }
+
+  
   
 
 
 
   return (
-    <>
-      <div className="box-main" onClick={toggleAnimation1}>
-        
-      </div>
-      <div className="box" id="box1" onClick={toggleAnimation3}></div>
-      <div className="box" id="box2" onClick={toggleAnimation3}></div>
-      <div className="box" id="box3" onClick={toggleAnimation2}></div>
-      <div className="box-lvl1" id="box4" ></div>
-      <div className="box-lvl1 lvlup" id="box5"  onClick={toggleAnimation4}></div>
-      <div className="box-lvl2" id="box6" onClick={toggleAnimation5} ></div>
-      <div className="box-lvl3" id="box7" onClick={toggleAnimation6}></div>
-      <div className="box-lvl3" id="box8" onClick={toggleAnimation7}></div>
-      <div className="box-lvl4" id="box9" onClick={toggleAnimation7}></div>
-      <div className="box-lvl4" id="box10" onClick={toggleAnimation8}></div>
-      <div className="box-lvl4" id="box11" onClick={toggleAnimation9}></div>
-      <div className="box-lvl5" id="box12" ></div>
-      <div className="box-lvl5" id="box13" onClick={toggleAnimation9}></div>
-      <div className="box-lvl6" id="box14" ></div>
+    <><>
+      <div className="box-main" onClick={toggleAnimation1} onDoubleClick={window.location.hash}><button class="button-1" role="button"  data-toggle="modal" data-target="#myModal" d></button></div>
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Modal Heading</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
 
-      <div className={arrow1 ? "arrow" : "hide"}>
+
+            <div class="modal-body">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                  </tr>
+                  <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                  </tr>
+                  <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+    <div className="box" id="box1" onClick={toggleAnimation3}><button class="button-1" role="button" data-toggle="modal" data-target="#myModal"></button></div>
+    <div className="box" id="box2" onClick={toggleAnimation3}><button class="button-1" role="button" data-toggle="modal" data-target="#myModal"></button></div>
+    <div className="box" id="box3" onClick={toggleAnimation2}><button class="button-1" role="button" data-toggle="modal" data-target="#myModal"></button></div>
+    <div className="box-lvl1" id="box4"><button class="button-1" role="button" data-toggle="modal" data-target="#myModal"></button></div>
+    <div className="box-lvl1 lvlup" id="box5" onClick={toggleAnimation4}><button class="button-1" role="button" data-toggle="modal" data-target="#myModal"></button></div>
+    <div className="box-lvl2" id="box6" onClick={toggleAnimation5}><button class="button-1" role="button" data-toggle="modal" data-target="#myModal"></button></div>
+    <div className="box-lvl3" id="box7" onClick={toggleAnimation6}><button class="button-1" role="button" data-toggle="modal" data-target="#myModal"></button></div>
+    <div className="box-lvl3" id="box8" onClick={toggleAnimation7}><button class="button-1" role="button" data-toggle="modal" data-target="#myModal"></button></div>
+    <div className="box-lvl4" id="box9" onClick={toggleAnimation7}><button class="button-1" role="button" data-toggle="modal" data-target="#myModal"></button></div>
+    <div className="box-lvl4" id="box10" onClick={toggleAnimation8}><button class="button-1" role="button" data-toggle="modal" data-target="#myModal"></button></div>
+    <div className="box-lvl4" id="box11" onClick={toggleAnimation9}><button class="button-1" role="button" data-toggle="modal" data-target="#myModal"></button></div>
+    <div className="box-lvl5" id="box12"></div>
+    <div className="box-lvl5" id="box13" onClick={toggleAnimation9} ><button class="button-1" role="button" data-toggle="modal" data-target="#myModal"></button></div>
+    <div className="box-lvl6" id="box14"><button class="button-1" role="button" data-toggle="modal" data-target="#myModal"></button></div>
+    <div className={arrow1 ? "arrow" : "hide"}>
         <svg
           width="315px"
           height="107px"
@@ -471,8 +514,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 -75 200 -75"
-          />
+            d="m 0 0 c 100 0 100 -75 200 -75" />
 
           <path
             className="dashed"
@@ -481,11 +523,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 -75 200 -75"
-          />
+            d="m 0 0 c 100 0 100 -75 200 -75" />
         </svg>
-      </div>
-      <div className={arrow1 ? "arrow" : "hide"}>
+      </div><div className={arrow1 ? "arrow" : "hide"}>
         <svg
           width="315px"
           height="107px"
@@ -501,8 +541,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 0 200 0"
-          />
+            d="m 0 0 c 100 0 100 0 200 0" />
 
           <path
             className="dashed"
@@ -511,11 +550,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 0 200 0"
-          />
+            d="m 0 0 c 100 0 100 0 200 0" />
         </svg>
-      </div>
-      <div className={arrow1 ? "arrow" : "hide"}>
+      </div><div className={arrow1 ? "arrow" : "hide"}>
         <svg
           width="315px"
           height="107px"
@@ -531,8 +568,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 75 200 75"
-          />
+            d="m 0 0 c 100 0 100 75 200 75" />
 
           <path
             className="dashed"
@@ -541,11 +577,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 75 200 75"
-          />
+            d="m 0 0 c 100 0 100 75 200 75" />
         </svg>
-      </div>
-      <div id="arrow2" className="arrow hide">
+      </div><div id="arrow2" className="arrow hide">
         <svg
           width="315px"
           height="107px"
@@ -561,8 +595,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 75 200 75"
-          />
+            d="m 0 0 c 100 0 100 75 200 75" />
 
           <path
             className="dashed"
@@ -571,11 +604,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 75 200 75"
-          />
+            d="m 0 0 c 100 0 100 75 200 75" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow3" >
+      </div><div className="arrow hide" id="arrow3">
         <svg
           width="315px"
           height="107px"
@@ -591,8 +622,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 75 200 75"
-          />
+            d="m 0 0 c 100 0 100 75 200 75" />
 
           <path
             className="dashed"
@@ -601,11 +631,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 75 200 75"
-          />
+            d="m 0 0 c 100 0 100 75 200 75" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow4" >
+      </div><div className="arrow hide" id="arrow4">
         <svg
           width="315px"
           height="107px"
@@ -621,8 +649,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 0 200 0"
-          />
+            d="m 0 0 c 100 0 100 0 200 0" />
 
           <path
             className="dashed"
@@ -631,11 +658,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 0 200 0"
-          />
+            d="m 0 0 c 100 0 100 0 200 0" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow5" >
+      </div><div className="arrow hide" id="arrow5">
         <svg
           width="315px"
           height="107px"
@@ -651,8 +676,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 0 200 0"
-          />
+            d="m 0 0 c 100 0 100 0 200 0" />
 
           <path
             className="dashed"
@@ -661,11 +685,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 100 0 100 0 200 0"
-          />
+            d="m 0 0 c 100 0 100 0 200 0" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow6" >
+      </div><div className="arrow hide" id="arrow6">
         <svg
           width="315px"
           height="107px"
@@ -681,8 +703,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 230 0 230 75 450 75"
-          />
+            d="m 0 0 c 230 0 230 75 450 75" />
 
           <path
             className="dashed"
@@ -691,11 +712,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 230 0 230 75 450 75"
-          />
+            d="m 0 0 c 230 0 230 75 450 75" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow7" >
+      </div><div className="arrow hide" id="arrow7">
         <svg
           width="315px"
           height="107px"
@@ -711,8 +730,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 200 70 230 70 450 0"
-          />
+            d="m 0 0 c 200 70 230 70 450 0" />
 
           <path
             className="dashed"
@@ -721,11 +739,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 200 70 230 70 450 0"
-          />
+            d="m 0 0 c 200 70 230 70 450 0" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow8" >
+      </div><div className="arrow hide" id="arrow8">
         <svg
           width="315px"
           height="107px"
@@ -741,8 +757,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 47.5 0 47.5 0 95 0"
-          />
+            d="m 0 0 c 47.5 0 47.5 0 95 0" />
 
           <path
             className="dashed"
@@ -751,11 +766,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 47.5 0 47.5 0 95 0"
-          />
+            d="m 0 0 c 47.5 0 47.5 0 95 0" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow9" >
+      </div><div className="arrow hide" id="arrow9">
         <svg
           width="315px"
           height="107px"
@@ -771,8 +784,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 50 0 50 -75 100 -75"
-          />
+            d="m 0 0 c 50 0 50 -75 100 -75" />
 
           <path
             className="dashed"
@@ -781,11 +793,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 50 0 50 -75 100 -75"
-          />
+            d="m 0 0 c 50 0 50 -75 100 -75" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow10">
+      </div><div className="arrow hide" id="arrow10">
         <svg
           width="315px"
           height="107px"
@@ -801,8 +811,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 25 0 25 -75 50 -75"
-          />
+            d="m 0 0 c 25 0 25 -75 50 -75" />
 
           <path
             className="dashed"
@@ -811,11 +820,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 25 0 25 -75 50 -75"
-          />
+            d="m 0 0 c 25 0 25 -75 50 -75" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow11">
+      </div><div className="arrow hide" id="arrow11">
         <svg
           width="315px"
           height="107px"
@@ -831,8 +838,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 25 0 25 0 50 0"
-          />
+            d="m 0 0 c 25 0 25 0 50 0" />
 
           <path
             className="dashed"
@@ -841,11 +847,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 25 0 25 0 50 0"
-          />
+            d="m 0 0 c 25 0 25 0 50 0" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow12">
+      </div><div className="arrow hide" id="arrow12">
         <svg
           width="315px"
           height="107px"
@@ -861,8 +865,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 25 0 25 75 50 75"
-          />
+            d="m 0 0 c 25 0 25 75 50 75" />
 
           <path
             className="dashed"
@@ -871,11 +874,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 25 0 25 75 50 75"
-          />
+            d="m 0 0 c 25 0 25 75 50 75" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow13">
+      </div><div className="arrow hide" id="arrow13">
         <svg
           width="315px"
           height="107px"
@@ -891,8 +892,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 80 -35 92 -35 180 0"
-          />
+            d="m 0 0 c 80 -35 92 -35 180 0" />
 
           <path
             className="dashed"
@@ -901,11 +901,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 80 -35 92 -35 180 0"
-          />
+            d="m 0 0 c 80 -35 92 -35 180 0" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow14">
+      </div><div className="arrow hide" id="arrow14">
         <svg
           width="315px"
           height="107px"
@@ -921,8 +919,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 25 0 25 0 50 0"
-          />
+            d="m 0 0 c 25 0 25 0 50 0" />
 
           <path
             className="dashed"
@@ -931,11 +928,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 25 0 25 0 50 0"
-          />
+            d="m 0 0 c 25 0 25 0 50 0" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow15">
+      </div><div className="arrow hide" id="arrow15">
         <svg
           width="315px"
           height="107px"
@@ -951,8 +946,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 25 0 25 0 50 0"
-          />
+            d="m 0 0 c 25 0 25 0 50 0" />
 
           <path
             className="dashed"
@@ -961,11 +955,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 25 0 25 0 50 0"
-          />
+            d="m 0 0 c 25 0 25 0 50 0" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow16">
+      </div><div className="arrow hide" id="arrow16">
         <svg
           width="315px"
           height="107px"
@@ -981,8 +973,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 80 0 80 0 80 58.4"
-          />
+            d="m 0 0 c 80 0 80 0 80 58.4" />
 
           <path
             className="dashed"
@@ -991,11 +982,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 80 0 80 0 80 58.4"
-          />
+            d="m 0 0 c 80 0 80 0 80 58.4" />
         </svg>
-      </div>
-      <div className="arrow hide" id="arrow17">
+      </div><div className="arrow hide" id="arrow17">
         <svg
           width="315px"
           height="107px"
@@ -1011,8 +1000,7 @@ export const Workflow = () => {
             strokeWidth="5"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 75 0 75 0 150 0"
-          />
+            d="m 0 0 c 75 0 75 0 150 0" />
 
           <path
             className="dashed"
@@ -1021,12 +1009,9 @@ export const Workflow = () => {
             strokeWidth="8"
             strokeLinejoin="round"
             stroke-miterlimit="10"
-            d="m 0 0 c 75 0 75 0 150 0"
-          />
+            d="m 0 0 c 75 0 75 0 150 0" />
         </svg>
-      </div>
-      
-      
-    </>
+      </div></>
+    
   );
 };
