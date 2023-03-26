@@ -461,6 +461,9 @@ export const Workflow = () => {
           >
             100
           </button>
+          <div className="label">
+          <p className={toggleVisibility1?"":"hide"}>Views</p>
+          </div>
         </div>
         <div className="modal" id="myModal">
           <div className="modal-dialog">
@@ -506,71 +509,114 @@ export const Workflow = () => {
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           30
         </button>
+        <div className="label">
+        <p className={toggleVisibility1?"":"hide"}>Bookmarked</p>
+        </div>
       </div>
       <div className="box" id="box2" onClick={toggleAnimation3}>
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           50
         </button>
+        <div className="label">
+        <p className={toggleVisibility1?"":"hide"}>T & C Enquiry</p>
+        </div>
       </div>
       <div className="box" id="box3" onClick={toggleAnimation2}>
+      
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           20
         </button>
+        <div className="label">
+        <p className={toggleVisibility1?"":"hide"}>Closed</p>
+        </div>
       </div>
       <div className="box-lvl1" id="box4">
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           20
         </button>
+        <div className="label">
+        <p className={toggleVisibility2?"":"hide"}>Missed Deadline</p>
+        </div>
       </div>
       <div className="box-lvl1 lvlup" id="box5" onClick={toggleAnimation4}>
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           35
         </button>
+        <div className="label">
+        <p className={toggleVisibility3?"":"hide"}>Visited Sponsor Website</p>
+        </div>
       </div>
       <div className="box-lvl2" id="box6" onClick={toggleAnimation5}>
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           45
         </button>
+        <div className="label">
+        <p className={toggleVisibility4?"":"hide"}>Applied</p>
+        </div>
       </div>
       <div className="box-lvl3" id="box7" onClick={toggleAnimation6}>
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           20
         </button>
+        <div className="label">
+        <p className={toggleVisibility5?"":"hide"}>Full</p>
+        </div>
       </div>
       <div className="box-lvl3" id="box8" onClick={toggleAnimation7}>
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           25
         </button>
+        <div className="label">
+        <p className={toggleVisibility5?"":"hide"}>Doc_Upload</p>
+        </div>
       </div>
       <div className="box-lvl4" id="box9" onClick={toggleAnimation7}>
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           5
         </button>
+        <div className="label">
+        <p className={toggleVisibility6?"":"hide"}>Late Upload</p>
+        </div>
       </div>
       <div className="box-lvl4" id="box10" onClick={toggleAnimation8}>
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           10
         </button>
+        <div className="label">
+        <p className={toggleVisibility6?"":"hide"}>Verification Failed</p>
+        </div>
       </div>
       <div className="box-lvl4" id="box11" onClick={toggleAnimation9}>
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           10
         </button>
+        <div className="label">
+        <p className={toggleVisibility6?"":"hide"}>Verified</p>
+        </div>
       </div>
       <div className="box-lvl5" id="box12">
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           5
         </button>
+        <div className="label">
+        <p className={toggleVisibility7?"":"hide"}>Rejected</p>
+        </div>
       </div>
       <div className="box-lvl5" id="box13" onClick={toggleAnimation9}>
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           5
         </button>
+        <div className="label">
+        <p className={toggleVisibility8?"":"hide"}>Re Upload</p>
+        </div>
       </div>
       <div className="box-lvl6" id="box14">
         <button class="button-1" data-toggle="modal" data-target="#myModal">
           15
         </button>
+        <div className="label">
+        <p className={toggleVisibility9?"":"hide"}>Accepted</p>
+        </div>
       </div>
       <div className={arrow1 ? "arrow" : "hide"}>
         <svg
