@@ -290,21 +290,15 @@
 /* CSS */
 .button-1 {
   background-color: transparent;
-  height: 2vh;
-  border-style: none;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
+    border-radius: 50%;
 
-  margin-top: 1vh;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
+  color: white;
+  cursor: pointer;
+
   text-align: center;
   text-decoration: none;
-  transition: color 100ms;
-  vertical-align: baseline;
+
+
   border-width: 0;
  
 }

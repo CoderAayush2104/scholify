@@ -6,14 +6,14 @@
     "node4": 20,
     "node5": 20,
     "node6": 35,
-    "node7": 25,
-    "node8": 30,
+    "node7": 45,
+    "node8": 20,
     "node9": 25,
-    "node10": 10,
-    "node11": 10,
-    "node12": 20,
-    "node13": 8,
+    "node10": 5,
+    "node11": 5,
+    "node12": 10,
+    "node13": 5,
     "node14": 5,
-    "node15": 25
+    "node15": 15
   }
 }
