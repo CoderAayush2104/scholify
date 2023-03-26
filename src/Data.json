@@ -15,7 +15,7 @@
         "12 CGPA": 93,
         "Match": 62,
         "Location": "Maharastr",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 9
       },
       {
@@ -26,7 +26,7 @@
         "12 CGPA": 94,
         "Match": 60,
         "Location": "Rajasthan",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 15
       },
       {
@@ -37,7 +37,7 @@
         "12 CGPA": 89,
         "Match": 88,
         "Location": "Bihar",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 3
       },
       {
@@ -48,7 +48,7 @@
         "12 CGPA": 95,
         "Match": 77,
         "Location": "Kerela",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 12
       },
       {
@@ -59,7 +59,7 @@
         "12 CGPA": 91,
         "Match": 96,
         "Location": "Gujarat",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 1
       },
       {
@@ -70,7 +70,7 @@
         "12 CGPA": 95,
         "Match": 80,
         "Location": "Tamil Nadu",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 8
       },
       {
@@ -81,7 +81,7 @@
         "12 CGPA": 73,
         "Match": 95,
         "Location": "West Bengal",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 1
       },
       {
@@ -92,7 +92,7 @@
         "12 CGPA": 100,
         "Match": 100,
         "Location": "Kerela",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 15
       },
       {
@@ -103,7 +103,7 @@
         "12 CGPA": 74,
         "Match": 99,
         "Location": "Delhi",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 15
       },
       {
@@ -114,7 +114,7 @@
         "12 CGPA": 100,
         "Match": 61,
         "Location": "Tamil Nadu",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 2
       },
       {
@@ -125,7 +125,7 @@
         "12 CGPA": 98,
         "Match": 60,
         "Location": "Maharastr",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 4
       },
       {
@@ -136,7 +136,7 @@
         "12 CGPA": 74,
         "Match": 95,
         "Location": "Tamil Nadu",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 1
       },
       {
@@ -147,7 +147,7 @@
         "12 CGPA": 78,
         "Match": 81,
         "Location": "Delhi",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 8
       },
       {
@@ -158,7 +158,7 @@
         "12 CGPA": 78,
         "Match": 62,
         "Location": "Maharastr",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 5
       },
       {
@@ -169,7 +169,7 @@
         "12 CGPA": 79,
         "Match": 91,
         "Location": "Kerela",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 6
       },
       {
@@ -180,7 +180,7 @@
         "12 CGPA": 77,
         "Match": 93,
         "Location": "Tamil Nadu",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 15
       },
       {
@@ -191,7 +191,7 @@
         "12 CGPA": 86,
         "Match": 81,
         "Location": "Rajasthan",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 14
       },
       {
@@ -202,7 +202,7 @@
         "12 CGPA": 94,
         "Match": 64,
         "Location": "Maharastr",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 11
       },
       {
@@ -213,7 +213,7 @@
         "12 CGPA": 87,
         "Match": 82,
         "Location": "West Bengal",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 2
       },
       {
@@ -224,7 +224,7 @@
         "12 CGPA": 87,
         "Match": 76,
         "Location": "West Bengal",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 1
       },
       {
@@ -235,7 +235,7 @@
         "12 CGPA": 95,
         "Match": 75,
         "Location": "West Bengal",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 2
       },
       {
@@ -246,7 +246,7 @@
         "12 CGPA": 100,
         "Match": 78,
         "Location": "Kerela",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 15
       },
       {
@@ -257,7 +257,7 @@
         "12 CGPA": 78,
         "Match": 89,
         "Location": "Kerela",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 10
       },
       {
@@ -268,7 +268,7 @@
         "12 CGPA": 89,
         "Match": 74,
         "Location": "UP",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 1
       },
       {
@@ -279,7 +279,7 @@
         "12 CGPA": 99,
         "Match": 95,
         "Location": "Bihar",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 12
       },
       {
@@ -290,7 +290,7 @@
         "12 CGPA": 89,
         "Match": 74,
         "Location": "West Bengal",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 11
       },
       {
@@ -301,7 +301,7 @@
         "12 CGPA": 96,
         "Match": 99,
         "Location": "UP",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 11
       },
       {
@@ -312,7 +312,7 @@
         "12 CGPA": 75,
         "Match": 60,
         "Location": "Maharastr",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 15
       },
       {
@@ -323,7 +323,7 @@
         "12 CGPA": 83,
         "Match": 71,
         "Location": "West Bengal",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 6
       },
       {
@@ -334,7 +334,7 @@
         "12 CGPA": 98,
         "Match": 80,
         "Location": "Tamil Nadu",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 7
       },
       {
@@ -345,7 +345,7 @@
         "12 CGPA": 71,
         "Match": 89,
         "Location": "UP",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 12
       },
       {
@@ -356,7 +356,7 @@
         "12 CGPA": 70,
         "Match": 67,
         "Location": "Maharastr",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 1
       },
       {
@@ -367,7 +367,7 @@
         "12 CGPA": 89,
         "Match": 79,
         "Location": "Tamil Nadu",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 3
       },
       {
@@ -378,7 +378,7 @@
         "12 CGPA": 87,
         "Match": 61,
         "Location": "Maharastr",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 6
       },
       {
@@ -389,7 +389,7 @@
         "12 CGPA": 96,
         "Match": 93,
         "Location": "Tamil Nadu",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 2
       },
       {
@@ -400,7 +400,7 @@
         "12 CGPA": 88,
         "Match": 61,
         "Location": "Rajasthan",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 5
       },
       {
@@ -411,7 +411,7 @@
         "12 CGPA": 89,
         "Match": 85,
         "Location": "West Bengal",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 4
       },
       {
@@ -422,7 +422,7 @@
         "12 CGPA": 83,
         "Match": 84,
         "Location": "UP",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 7
       },
       {
@@ -433,7 +433,7 @@
         "12 CGPA": 73,
         "Match": 95,
         "Location": "Delhi",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 13
       },
       {
@@ -444,7 +444,7 @@
         "12 CGPA": 89,
         "Match": 73,
         "Location": "Rajasthan",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 5
       },
       {
@@ -455,7 +455,7 @@
         "12 CGPA": 98,
         "Match": 60,
         "Location": "Gujarat",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 12
       },
       {
@@ -466,7 +466,7 @@
         "12 CGPA": 76,
         "Match": 83,
         "Location": "UP",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 12
       },
       {
@@ -477,7 +477,7 @@
         "12 CGPA": 75,
         "Match": 69,
         "Location": "West Bengal",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 7
       },
       {
@@ -488,7 +488,7 @@
         "12 CGPA": 87,
         "Match": 97,
         "Location": "Rajasthan",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 15
       },
       {
@@ -499,7 +499,7 @@
         "12 CGPA": 84,
         "Match": 60,
         "Location": "West Bengal",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 5
       },
       {
@@ -510,7 +510,7 @@
         "12 CGPA": 71,
         "Match": 98,
         "Location": "Maharastr",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 13
       },
       {
@@ -521,7 +521,7 @@
         "12 CGPA": 80,
         "Match": 97,
         "Location": "Delhi",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 13
       },
       {
@@ -532,7 +532,7 @@
         "12 CGPA": 78,
         "Match": 94,
         "Location": "Delhi",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 7
       },
       {
@@ -543,7 +543,7 @@
         "12 CGPA": 93,
         "Match": 60,
         "Location": "West Bengal",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 3
       },
       {
@@ -554,7 +554,7 @@
         "12 CGPA": 78,
         "Match": 84,
         "Location": "Kerela",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 1
       },
       {
@@ -565,7 +565,7 @@
         "12 CGPA": 74,
         "Match": 93,
         "Location": "Bihar",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 4
       },
       {
@@ -576,7 +576,7 @@
         "12 CGPA": 81,
         "Match": 94,
         "Location": "UP",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 10
       },
       {
@@ -587,7 +587,7 @@
         "12 CGPA": 84,
         "Match": 68,
         "Location": "Gujarat",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 6
       },
       {
@@ -598,7 +598,7 @@
         "12 CGPA": 99,
         "Match": 60,
         "Location": "Tamil Nadu",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 14
       },
       {
@@ -609,7 +609,7 @@
         "12 CGPA": 79,
         "Match": 66,
         "Location": "Gujarat",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 12
       },
       {
@@ -620,7 +620,7 @@
         "12 CGPA": 91,
         "Match": 60,
         "Location": "Bihar",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 4
       },
       {
@@ -631,7 +631,7 @@
         "12 CGPA": 75,
         "Match": 93,
         "Location": "Delhi",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 2
       },
       {
@@ -642,7 +642,7 @@
         "12 CGPA": 74,
         "Match": 80,
         "Location": "Maharastr",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 3
       },
       {
@@ -653,7 +653,7 @@
         "12 CGPA": 92,
         "Match": 75,
         "Location": "Kerela",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 10
       },
       {
@@ -664,7 +664,7 @@
         "12 CGPA": 94,
         "Match": 97,
         "Location": "Bihar",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 3
       },
       {
@@ -675,7 +675,7 @@
         "12 CGPA": 73,
         "Match": 82,
         "Location": "Rajasthan",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 10
       },
       {
@@ -686,7 +686,7 @@
         "12 CGPA": 97,
         "Match": 77,
         "Location": "Gujarat",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 4
       },
       {
@@ -697,7 +697,7 @@
         "12 CGPA": 83,
         "Match": 67,
         "Location": "Gujarat",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 14
       },
       {
@@ -708,7 +708,7 @@
         "12 CGPA": 82,
         "Match": 92,
         "Location": "Delhi",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 15
       },
       {
@@ -719,7 +719,7 @@
         "12 CGPA": 77,
         "Match": 74,
         "Location": "Maharastr",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 1
       },
       {
@@ -730,7 +730,7 @@
         "12 CGPA": 90,
         "Match": 85,
         "Location": "Bihar",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 11
       },
       {
@@ -741,7 +741,7 @@
         "12 CGPA": 90,
         "Match": 71,
         "Location": "Maharastr",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 7
       },
       {
@@ -752,7 +752,7 @@
         "12 CGPA": 75,
         "Match": 95,
         "Location": "West Bengal",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 12
       },
       {
@@ -763,7 +763,7 @@
         "12 CGPA": 70,
         "Match": 81,
         "Location": "Maharastr",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 5
       },
       {
@@ -774,7 +774,7 @@
         "12 CGPA": 84,
         "Match": 91,
         "Location": "Tamil Nadu",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 13
       },
       {
@@ -785,7 +785,7 @@
         "12 CGPA": 70,
         "Match": 68,
         "Location": "Kerela",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 15
       },
       {
@@ -796,7 +796,7 @@
         "12 CGPA": 71,
         "Match": 97,
         "Location": "UP",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 3
       },
       {
@@ -807,7 +807,7 @@
         "12 CGPA": 86,
         "Match": 93,
         "Location": "Gujarat",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 4
       },
       {
@@ -818,7 +818,7 @@
         "12 CGPA": 90,
         "Match": 73,
         "Location": "Gujarat",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 4
       },
       {
@@ -829,7 +829,7 @@
         "12 CGPA": 83,
         "Match": 84,
         "Location": "Rajasthan",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 2
       },
       {
@@ -840,7 +840,7 @@
         "12 CGPA": 99,
         "Match": 88,
         "Location": "Gujarat",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 1
       },
       {
@@ -851,7 +851,7 @@
         "12 CGPA": 71,
         "Match": 60,
         "Location": "Kerela",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 2
       },
       {
@@ -862,7 +862,7 @@
         "12 CGPA": 83,
         "Match": 84,
         "Location": "Bihar",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 6
       },
       {
@@ -873,7 +873,7 @@
         "12 CGPA": 92,
         "Match": 89,
         "Location": "Tamil Nadu",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 13
       },
       {
@@ -884,7 +884,7 @@
         "12 CGPA": 76,
         "Match": 67,
         "Location": "Kerela",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 11
       },
       {
@@ -895,7 +895,7 @@
         "12 CGPA": 87,
         "Match": 96,
         "Location": "Delhi",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 12
       },
       {
@@ -906,7 +906,7 @@
         "12 CGPA": 73,
         "Match": 62,
         "Location": "Kerela",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 3
       },
       {
@@ -917,7 +917,7 @@
         "12 CGPA": 89,
         "Match": 64,
         "Location": "Tamil Nadu",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 8
       },
       {
@@ -928,7 +928,7 @@
         "12 CGPA": 100,
         "Match": 82,
         "Location": "Bihar",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 12
       },
       {
@@ -939,7 +939,7 @@
         "12 CGPA": 73,
         "Match": 64,
         "Location": "West Bengal",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 7
       },
       {
@@ -950,7 +950,7 @@
         "12 CGPA": 87,
         "Match": 99,
         "Location": "West Bengal",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 4
       },
       {
@@ -961,7 +961,7 @@
         "12 CGPA": 74,
         "Match": 73,
         "Location": "Kerela",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 7
       },
       {
@@ -972,7 +972,7 @@
         "12 CGPA": 82,
         "Match": 97,
         "Location": "Gujarat",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 4
       },
       {
@@ -983,7 +983,7 @@
         "12 CGPA": 99,
         "Match": 92,
         "Location": "Delhi",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 11
       },
       {
@@ -994,7 +994,7 @@
         "12 CGPA": 91,
         "Match": 89,
         "Location": "Bihar",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 13
       },
       {
@@ -1005,7 +1005,7 @@
         "12 CGPA": 95,
         "Match": 94,
         "Location": "Delhi",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 12
       },
       {
@@ -1016,7 +1016,7 @@
         "12 CGPA": 100,
         "Match": 64,
         "Location": "Kerela",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 1
       },
       {
@@ -1027,7 +1027,7 @@
         "12 CGPA": 94,
         "Match": 78,
         "Location": "UP",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 13
       },
       {
@@ -1038,7 +1038,7 @@
         "12 CGPA": 82,
         "Match": 71,
         "Location": "Kerela",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 9
       },
       {
@@ -1049,7 +1049,7 @@
         "12 CGPA": 99,
         "Match": 76,
         "Location": "Rajasthan",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 5
       },
       {
@@ -1060,7 +1060,7 @@
         "12 CGPA": 88,
         "Match": 62,
         "Location": "Kerela",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 4
       },
       {
@@ -1071,7 +1071,7 @@
         "12 CGPA": 100,
         "Match": 94,
         "Location": "Rajasthan",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 4
       },
       {
@@ -1082,7 +1082,7 @@
         "12 CGPA": 70,
         "Match": 75,
         "Location": "Kerela",
-        "Reason_for_drop ": "insufficient details",
+        "Reason_for_drop": "insufficient details",
         "state": 3
       },
       {
@@ -1093,7 +1093,7 @@
         "12 CGPA": 75,
         "Match": 69,
         "Location": "Bihar",
-        "Reason_for_drop ": "missed deadline",
+        "Reason_for_drop": "missed deadline",
         "state": 11
       },
       {
@@ -1104,7 +1104,7 @@
         "12 CGPA": 99,
         "Match": 72,
         "Location": "Gujarat",
-        "Reason_for_drop ": "Failed Verfication",
+        "Reason_for_drop": "Failed Verfication",
         "state": 14
       }
     ]
